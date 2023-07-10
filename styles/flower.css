@@ -32,3 +32,36 @@
     font-weight: 700;
     padding: 15px 35px;
 }
+.text-color{
+    color: #e55473;
+}
+.btn-main{
+    border: none;
+    background: #e55473;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 35px; 
+    position: absolute;
+}
+.fl-main{
+    display: flex;
+    justify-content:space-around;
+    height: 100vh;
+    align-items: center;
+    background-color:white;
+}
+.head{
+    font-size: 45px;
+    font-weight: bold;
+}
+.des{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.main-two{
+    text-align: center;
+    
+}
