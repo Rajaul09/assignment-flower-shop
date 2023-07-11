@@ -6,7 +6,7 @@
 .main{
     display: flex;
     justify-content:space-around;
-    height: 100vh;
+    height: 120vh;
     align-items: center;
     background-color: #f8eff1;
     
@@ -37,21 +37,34 @@
     color: #e55473;
 }
 .btn-main{
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px; 
+    border-radius: 8px;
+    background: #e55473;
     border: none;
+    color: white;
+    /* border: none;
     background: #e55473;
     border-radius: 5px;
     color: white;
     font-size: 15px;
     font-weight: 700;
     padding: 15px 35px; 
-    position: absolute;
+    position: absolute; */
+    
 }
 .fl-main{
     display: flex;
     justify-content:space-around;
     height: 100vh;
     align-items: center;
-    background-color:white;
+    background: rgba(229, 84, 115,  0.05);
+    border-radius: 8px;
+    gap: 5px;
+    height: 620px;
+    
 }
 .head{
     font-size: 45px;
@@ -61,6 +74,7 @@
     font-size: 18px;
     margin-top: 15px;
     margin-bottom: 15px;
+    color: rgba(39, 39, 39, 0.60);
 }
 .main-two{
     text-align: center;
@@ -68,6 +82,11 @@
 }
 .social{
     text-align: center;
+   
+}
+.social-content{
+    width: 80%;
+    margin: auto;
 }
 .social-instra{
     font-size: 50px;
@@ -77,4 +96,19 @@
     font-size: 16px;
     margin-top: 10px;
     margin-bottom: 15px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.card{
+    width: 342px;
+    height: 396px;
+    
+}
+.blog-img{
+    width: 100%;
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
